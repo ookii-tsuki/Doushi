@@ -1,11 +1,11 @@
-#Doushi Library
+# Doushi Library
 Doushi is a library for conjugating Japanese verbs to multiple tenses and forms
 
 | Package |                    NuGet ID                     |                         NuGet Status                         |
 | :-----: | :---------------------------------------------: | :----------------------------------------------------------: |
 | Kawazu  | [Kawazu]() | [![Stat]()]() |
 
-##Features
+## Features
 * Conjugates Japanese verbs into the forms
 	* Non past / Non past polite
 	* Past / Past polite
@@ -17,8 +17,8 @@ Doushi is a library for conjugating Japanese verbs to multiple tenses and forms
 	* Imperative
 * Auto detects verb categories
 
-##Usage
-###Install
+## Usage
+### Install
 The package can be installed by NuGet:
 ```powershell
 Install-Package Doushi -Version 1.0.0
@@ -27,7 +27,7 @@ Or reference it in your project:
 ```xml
 <PackageReference Include="Doushi" Version="1.0.0" />
 ```
-###Getting Started
+### Getting Started
 Import the library by spacename
 ```csharp
 using Doushi;
@@ -40,7 +40,7 @@ var conj = Conjugator.Conjugate("作る", "つくる");
 var conj = Conjugator.Conjugate("作る", Doushi.Type.GODAN_RU, "つくる");
 ```
 The `Conjugate()` function is going to return an `Inflections` class that contains all the verb conjugation in the supported forms, will return null in case the verb is not recognized as a verb
-#####Other Public Functions
+##### Other Public Functions
 The `TryFindType()` is a public function that is used by the `Conjugate()` function to try and find the verb type
 ```csharp
 // Will return Type.SPECIAL_KURU
@@ -51,14 +51,14 @@ The `DicToDoushiType()` function is used to convert the supported [JMDict](http:
 // Will return Type.GODAN_MU
 var type = Conjugator.DicToDoushiType("v5m")
 ```
-#####Conjugator Class
+##### Conjugator Class
 Contains the main functions for verb conjugations
-#####Inflections
+##### Inflections
 Contains the verb conjugation in all the supported forms
-#####Polarity
+##### Polarity
 Contains the verb polarity (Affirmative/Negative) as well as the verb stem reading in case the reading was provided, but always presented for する and 来る verbs
 
-####Example
+#### Example
 ```csharp
 var conj = Conjugator.Conjugate("行く", "いく");
 if (conj != null)
