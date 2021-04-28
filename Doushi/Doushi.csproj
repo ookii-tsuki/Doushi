@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.1;net472</TargetFrameworks>
+    <PackageId>Doushi</PackageId>
+    <Authors>ookii-tsuki</Authors>
+    <Company>ookii-tsuki</Company>
+    <Description>Japanese verb conjugator</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Japanese, Conjugator, Verbs, Language, Conjugation</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+</Project>
