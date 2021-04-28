@@ -4,6 +4,7 @@ Doushi is a library for conjugating Japanese verbs to multiple tenses and forms
 | Package |                    NuGet ID                     |                         NuGet Status                         |
 | :-----: | :---------------------------------------------: | :----------------------------------------------------------: |
 | Kawazu  | [Kawazu]() | [![Stat]()]() |
+
 ##Features
 * Conjugates Japanese verbs into the forms
 	* Non past / Non past polite
