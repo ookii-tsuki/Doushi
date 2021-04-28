@@ -5,13 +5,22 @@
     <PackageId>Doushi</PackageId>
     <Authors>ookii-tsuki</Authors>
     <Company>ookii-tsuki</Company>
-    <Description>Japanese verb conjugator</Description>
+    <Description>A C# library for Japanese verb conjugation</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>Japanese, Conjugator, Verbs, Language, Conjugation</PackageTags>
+    <RepositoryUrl>https://github.com/ookii-tsuki/Doushi</RepositoryUrl>
+    <PackageIcon>Doushi.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <WarningLevel>1</WarningLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Doushi.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
