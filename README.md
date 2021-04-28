@@ -5,7 +5,7 @@ Doushi is a library for conjugating Japanese verbs to multiple tenses and forms
 
 | Package |                    NuGet ID                     |                         NuGet Status                         |
 | :-----: | :---------------------------------------------: | :----------------------------------------------------------: |
-| Kawazu  | [Doushi](https://www.nuget.org/packages/Doushi/1.0.0) | [![Stat](https://img.shields.io/nuget/v/Doushi.svg)](https://www.nuget.org/packages/Doushi/1.0.0) |
+| Doushi  | [Doushi](https://www.nuget.org/packages/Doushi/1.0.0) | [![Stat](https://img.shields.io/nuget/v/Doushi.svg)](https://www.nuget.org/packages/Doushi/1.0.0) |
 
 ## Features
 * Conjugates Japanese verbs into the forms
