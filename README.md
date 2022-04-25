@@ -1,4 +1,4 @@
-<img src="https://github.com/ookii-tsuki/Doushi/raw/master/Doushi.png" alt="Kawazu" width="150" />
+<img src="https://github.com/ookii-tsuki/Doushi/raw/master/Doushi.png" alt="Doushi" width="150" />
 
 # Doushi Library
 Doushi is a library for conjugating Japanese verbs to multiple tenses and forms
